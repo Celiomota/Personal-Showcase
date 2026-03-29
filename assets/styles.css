@@ -36,11 +36,17 @@ header{
 .header_nav a {
     color: var(--color01);
     text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
     font-size: 14px;
 }
 
 .header_nav a:hover{
     text-decoration: underline;
+    text-underline-offset: 8px ;
+    text-decoration-thickness: 2px; 
+    border-bottom: 2px solid var(--color05);
+    padding-bottom: 5px;
     color: var(--color05);
 }
 
