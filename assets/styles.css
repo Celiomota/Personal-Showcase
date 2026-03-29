@@ -25,11 +25,11 @@ header{
     text-align: left;
 }
 
-.link-h{
+.links{
     text-decoration: none;
     color: var(--color01);
 }
 
-.link-h:hover{
+.links:hover{
     color: var(--color06)
 }
