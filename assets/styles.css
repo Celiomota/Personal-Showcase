@@ -3,9 +3,11 @@
 :root{
     --color01: #FFFFFF;
     --color02: #000000;
-    --color03: #FF0000;
-    --color04: #4F0F04;
-    --color05: #AD1005;
+    --color03: #021D40;
+    --color04: #022859;
+    --color05: #023373;
+    --color06: #035AA6;
+    --color07: #0487D9;
 }
 
 *{
@@ -15,7 +17,7 @@
 
 body{
     color: var(--color01);
-    background-image: linear-gradient(45deg, var(--color02), var(--color04), var(--color05));
+    background-image: linear-gradient(-45deg, var(--color02), var(--color04), var(--color05));
 }
 
 header{
@@ -29,5 +31,5 @@ header{
 }
 
 .link-h:hover{
-    color: #4F0F04;
+    color: var(--color06)
 }
