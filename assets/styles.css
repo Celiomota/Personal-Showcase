@@ -21,22 +21,26 @@ body{
 }
 
 header{
-    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
     background-color: var(--color02);
-    text-align: right;
 }
 
-header > h1{
-    text-align: left;
+.header_nav{
+    display: flex;
+    gap: 20px;
 }
 
-
-.links{
-    text-decoration: none;
+.header_nav a {
     color: var(--color01);
+    text-decoration: none;
+    font-size: 14px;
 }
 
-.links:hover{
-    color: var(--color06)
+.header_nav a:hover{
+    text-decoration: underline;
+    color: var(--color05);
 }
 
