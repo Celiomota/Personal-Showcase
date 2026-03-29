@@ -21,9 +21,15 @@ body{
 }
 
 header{
+    height: 60px;
     background-color: var(--color02);
+    text-align: right;
+}
+
+header > h1{
     text-align: left;
 }
+
 
 .links{
     text-decoration: none;
@@ -33,3 +39,4 @@ header{
 .links:hover{
     color: var(--color06)
 }
+
