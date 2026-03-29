@@ -10,7 +10,7 @@ This project was born from the desire to showcase my work whit **HTML5** and **C
 ## 🛠️ Technologies Used
 *   **HTML5:** Semantic structuring.
 *   **CSS3:** Modern styling (Flexbox/Grid).
-*   **JS** Animations.
+*   **JS:** Animations.
 *   **Git & GitHub:** Version control and hosting.
 
 ## 🚀 How to View
