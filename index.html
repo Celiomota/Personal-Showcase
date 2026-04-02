@@ -3,53 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Célio Mota</title>
+    <title>Célio Mota | Front-end Developer</title>
+
     <link rel="stylesheet" href="assets/styles.css">
-    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <header class="header">
-        <h1 class="header_logo">About me</h1>
 
-        <nav class="header_nav">
-            <a href="#" class="links">Home</a>
-            <a href="#" class="links">About</a>
-            <a href="#" class="links">Services</a>
-            <a href="#" class="links">Portifolio</a>
-            <a href="#" class="links">Contact</a>
-        </nav>
-    </header>
+<header class="header">
+    <h1 class="logo">Célio Mota</h1>
 
-    <main>
-        <h1 id="A1">Hello, i am</h1>
-        <h1 id="A2">Web Designer</h1>
+    <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
 
-        <img src="assets/images/Profile-picture.png" alt="Profile-picture">
+<main>
 
-        <section>
-            <h2>Full-Stack Developer</h2>
+    <!-- HERO -->
+    <section id="home" class="section home">
+        <div class="text">
+            <h1>Hello, I'm Célio</h1>
+            <h2>Front-end Developer</h2>
+
             <p>
-                "I'm a Full Stack Developer focused on building functional and scalable web applications. I enjoy the challenge of working across the entire stack, ensuring a solid technical foundation and an intuitive user experience. My goal is simple: deliver clean code and reliable solutions to real-world problems. I'm always learning and looking for smarter ways to improve my craft."
+                I build fast, responsive and modern web interfaces focused on user experience.
             </p>
-        </section>
 
-        <ul>
-            <li>
-                <a href="https://github.com/Celiomota" target="_blank" rel="external"><img src="assets/images/github-logo-30px.png" alt="Github"></a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/celiolucas_008/" target="_blank" rel="external"><img src="assets/images/instagram-30px.png" alt="Instagram"></a>
-            </li>
-            <li>
-                <a href="https://wa.me/5562996137899?text=Talk%20to%20me" target="_blank" rel="external"><img src="assets/images/whatsapp-30px.png" alt="WhatsApp"></a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/célio-lucas-simão-da-mota-b644b838a/" target="_blank" rel="external"><img src="assets/images/linkedin-30px.png" alt="linkedin"></a>
-            </li>
-        </ul>
+            <div class="actions">
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="#contact" class="btn outline">Contact Me</a>
+            </div>
 
-        <a href="https://wa.me/5562996137899?text=Talk%20to%20me" target="_blank" rel="external" class="links">Contact-Me</a>
-        <a href="#" target="_blank" rel="external" class="links">Download Cv</a>
-    </main>
+            <div class="socials">
+                <a href="https://github.com/Celiomota" target="_blank">
+                    <img src="assets/images/github-logo-30px.png" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <img src="assets/images/linkedin-30px.png" alt="LinkedIn">
+                </a>
+                <a href="https://wa.me/5562996137899" target="_blank">
+                    <img src="assets/images/whatsapp-30px.png" alt="WhatsApp">
+                </a>
+            </div>
+        </div>
+
+        <div class="photo">
+            <img src="assets/images/Profile-picture.png" alt="Profile picture">
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+        <div class="text">
+            <h2>About Me</h2>
+            <p>
+                I'm a developer focused on building clean, efficient and scalable web applications.
+                I enjoy working on both front-end and back-end, always aiming for solid solutions
+                and intuitive user experiences.
+            </p>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+        <div class="text">
+            <h2>Portfolio</h2>
+
+            <div class="grid">
+                <div class="card">
+                    <img src="assets/images/project1.png">
+                    <h3>Project Name</h3>
+                    <p>Short description</p>
+                    <a href="#">View</a>
+                </div>
+
+                <div class="card">
+                    <img src="assets/images/project2.png">
+                    <h3>Project Name</h3>
+                    <p>Short description</p>
+                    <a href="#">View</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+        <div class="text">
+            <h2>Contact</h2>
+            <p>Let's work together.</p>
+
+            <a href="https://wa.me/5562996137899" class="btn">
+                Talk on WhatsApp
+            </a>
+
+            <a href="#" class="btn outline">
+                Download CV
+            </a>
+        </div>
+    </section>
+
+</main>
+
 </body>
 </html>
