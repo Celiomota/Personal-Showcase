@@ -1,4 +1,15 @@
-/* RESET */
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+:root{
+    --color01: #0f0f0f;;
+    --color02: #ffffff;
+    --color03: #00bcd4;
+    --color04: #1a1a1a;
+
+    --basicfont: "Poppins", sans-serif;
+}
 * {
     margin: 0;
     padding: 0;
@@ -6,9 +17,9 @@
 }
 
 body {
-    background: #0f0f0f;
-    color: white;
-    font-family: Arial, sans-serif;
+    background: var(--color01);
+    color: var(--color02);
+    font-family: var(--basicfont);
 }
 
 /* SCROLL */
@@ -36,7 +47,7 @@ html {
 .nav a {
     margin-left: 20px;
     text-decoration: none;
-    color: white;
+    color:var(--color02);
 }
 
 /* SECTIONS */
@@ -65,7 +76,7 @@ html {
 
 .text h2 {
     font-size: 28px;
-    color: #00bcd4;
+    color:var(--color03);
 }
 
 .text p {
@@ -79,16 +90,16 @@ html {
 
 .btn {
     padding: 10px 20px;
-    background: #00bcd4;
-    color: black;
+    background: var(--color03);
+    color: var(--color01);
     text-decoration: none;
     margin-right: 10px;
 }
 
 .btn.outline {
     background: transparent;
-    border: 1px solid #00bcd4;
-    color: #00bcd4;
+    border: 1px solid var(--color03);
+    color: var(--color03)
 }
 
 /* SOCIAL */
@@ -111,7 +122,7 @@ html {
 }
 
 .card {
-    background: #1a1a1a;
+    background: var(--color04);
     padding: 15px;
     width: 250px;
 }
@@ -119,4 +130,3 @@ html {
 .card img {
     width: 100%;
 }
-
