@@ -119,9 +119,19 @@ html {
 }
 
 /* SOCIAL */
-.socials img {
+.socials{
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+    padding: 0;
+    list-style: none;
+}
+.socials img{
     width: 30px;
-    margin-right: 10px;
+    transition: 0.3s;
+}
+.socials img:hover{
+    transform: scale(1.2);
 }
 
 /* IMAGE */
