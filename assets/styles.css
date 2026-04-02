@@ -60,7 +60,7 @@ html {
     height: 2px;
     background: var(--color03);
 
-    transition: 0.3s;
+    transition: 0.5s;
 }
 .nav a:hover::after {
     width: 100%;
