@@ -45,9 +45,25 @@ html {
 
 /* NAV */
 .nav a {
+    position: relative;
     margin-left: 20px;
     text-decoration: none;
     color:var(--color02);
+}
+.nav a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+
+    width: 0;
+    height: 2px;
+    background: var(--color03);
+
+    transition: 0.3s;
+}
+.nav a:hover::after {
+    width: 100%;
 }
 
 /* SECTIONS */
