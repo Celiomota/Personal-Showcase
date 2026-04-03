@@ -5,7 +5,8 @@
 Simple landing page designed to showcase my work in an organized way.
 
 ## 📋 About the Project
-This project was born from the desire to showcase my work whit **HTML5** and **CSS3**  **JS**. The goal is to build a way to demonstrate my knowledge, present my projects, and share my contact information.
+This project was born from the desire to showcase my work whit **HTML5**, **CSS3**
+and **JS**. The goal is to build a way to demonstrate my knowledge, present my projects, and share my contact information.
 
 ## 🛠️ Technologies Used
 *   **HTML5:** Semantic structuring.
