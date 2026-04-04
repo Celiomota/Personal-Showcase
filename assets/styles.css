@@ -59,7 +59,6 @@ html {
     width: 0;
     height: 2px;
     background: var(--color03);
-
     transition: 0.5s;
 }
 .nav a:hover::after {
@@ -136,9 +135,10 @@ html {
 
 /* IMAGE */
 .photo img {
-    width: 250px;
+    width: 350px;
     border-radius: 50%;
-}
+    border: 5px solid var(--color03);
+    box-shadow: 0 0 15px var(--color03);
 
 /* GRID */
 .grid {
