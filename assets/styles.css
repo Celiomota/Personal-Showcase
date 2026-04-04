@@ -71,10 +71,10 @@ html {
     padding: 100px 10%;
     display: flex;
     align-items: center;
-
     /* evita corte pelo header */
     scroll-margin-top: 80px;
 }
+
 
 /* HERO */
 .home {
@@ -197,13 +197,11 @@ html {
 .tech {
     display: flex;
     gap: 8px;
-    margin: 15px 0;
 }
 .tech span {
     font-size: 12px;
-    padding: 5px 10px;
-    border: 1px solid var(--color03);
-    border-radius: 20px;
+    padding-top: 1px;
+
 }
 
 /* links */
@@ -226,15 +224,12 @@ html {
 
 .icon-btn {
     display: inline-block; /* importante pra link se comportar como botão */
-
     background: transparent;
     border: 1px solid var(--color03);
     border-radius: 8px;
     color: var(--color03);
-
     padding: 6px 12px;
     text-decoration: none;
-
     font-size: 13px;
     transition: 0.3s;
 }
@@ -341,13 +336,10 @@ html {
 .service-icon {
     width: 60px;
     height: 60px;
-
     margin: 0 auto 15px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     border-radius: 50%;
     background: rgba(0,188,212,0.1);
 }
@@ -356,21 +348,53 @@ html {
     height: 30px;
     stroke: var(--color03);
 }
+.projects{
+    min-height: 120vh;
+    padding: 100px 16%;
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    /* evita corte pelo header */
+    scroll-margin-top: 80px;
+}
+#project_h2{
+    display: flex;
+    margin-bottom: 30px;
+    color: var(--color03);
+    font-size: 2.2em;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 4px 2px 4px var(--color01);
+}
 .project-image {
     width: 100%;
-    height: 160px;
-
+    height: 180px;
+    overflow: hidden;
     background: linear-gradient(135deg, #1a1a1a, #222);
     border-radius: 8px;
-
     display: flex;
     align-items: center;
     justify-content: center;
 
     margin-bottom: 15px;
 }
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 .project-image span {
     font-size: 14px;
     opacity: 0.5;
+}
+
+.contact{
+    min-height: 100vh;
+    padding: 100px 10%;
+    display: flex;
+    align-items: center;
+    /* evita corte pelo header */
+    scroll-margin-top: 80px;
 }
