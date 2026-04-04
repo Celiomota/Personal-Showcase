@@ -218,3 +218,73 @@ html {
     background: var(--color03);
     color: var(--color01);
 }
+
+.services {
+    text-align: center;
+}
+.services-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+.service-card {
+    background: var(--color04);
+    padding: 20px;
+    width: 260px;
+    border-radius: 10px;
+
+    border: 1px solid var(--color03);
+
+    transition: all 0.3s ease;
+}
+.service-card:hover {
+    transform: translateY(-5px);
+    border: 1px solid var(--color03);
+    box-shadow: 0 0 15px var(--color03);
+}
+
+.service-card h3 {
+    margin-bottom: 10px;
+    color: var(--color03);
+}
+.service-card p {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.service-card a {
+    text-decoration: none;
+    color: var(--color03);
+    font-weight: 500;
+}
+.services-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.services h2 {
+    margin-bottom: 30px;
+    color: var(--color03);
+    font-size: 2.2em;
+    text-shadow: 4px 2px 4px var(--color01);
+}
+.service-icon {
+    width: 60px;
+    height: 60px;
+
+    margin: 0 auto 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    background: rgba(0,188,212,0.1);
+}
+.service-icon svg {
+    width: 30px;
+    height: 30px;
+    stroke: var(--color03);
+}
