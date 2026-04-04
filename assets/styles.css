@@ -136,10 +136,19 @@ html {
 }
 .socials img{
     width: 30px;
+    height: auto;
     transition: 0.3s;
 }
 .socials img:hover{
     transform: scale(1.2);
+}
+.socials a {
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* IMAGE */
