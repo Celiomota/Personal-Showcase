@@ -174,3 +174,47 @@ html {
 .card img {
     width: 100%;
 }
+
+/* ABOUT */
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+/* imagem diferente do hero */
+.about-image img {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    border: 5px solid var(--color03);
+    box-shadow: 0 0 15px var(--color03);
+}
+
+/* texto */
+.about-content {
+    max-width: 500px;
+}
+
+/* skills */
+.skills {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.skills span {
+    padding: 6px 14px;
+    border: 1px solid var(--color03);
+    border-radius: 20px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.skills span:hover {
+    background: var(--color03);
+    color: var(--color01);
+}
