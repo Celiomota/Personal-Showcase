@@ -51,6 +51,32 @@ html, body {
     .header {
         padding: 0 5%;
     }
+    .section {
+        padding: 100px 5%;
+        justify-content: center;
+        text-align: center;
+    }
+    .home {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .services-container {
+        justify-content: center;
+    }
+    .nav {
+        gap: 15px;
+        justify-content: center;
+    }
+    .actions {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
 }
 
 /* NAV */
@@ -101,6 +127,7 @@ html, body {
 
 .text h1 {
     font-size: 40px;
+    max-width: 100%;
 }
 
 .text h2 {
@@ -175,7 +202,8 @@ html, body {
 }
 /* GRID */
 .grid {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 20px;
     flex-wrap: wrap;
     align-items: stretch;
@@ -189,6 +217,7 @@ html, body {
     border-radius: 12px;
     border: 1px solid rgba(255,255,255,0.08);
     transition: all 0.3s ease;
+    gap: 8px;
 }
 .card:hover {
     transform: translateY(-6px);
@@ -364,15 +393,14 @@ html, body {
     stroke: var(--color03);
 }
 .projects{
-    min-height: 120vh;
-    padding: 100px 16%;
-    display: flex;
-    align-items: center;
-    max-width: 800px;
-    margin: 0 auto;
-    /* evita corte pelo header */
-    scroll-margin-top: 80px;
+    width: 100%;
 }
+.projects-container {
+    width: 100%;
+    max-width: 350px; /* ou 900 / 1000 se quiser maior */
+    margin: 0 auto;
+}
+
 #project_h2{
     display: flex;
     margin-bottom: 30px;
