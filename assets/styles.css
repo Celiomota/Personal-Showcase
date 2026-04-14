@@ -27,6 +27,10 @@ html {
     scroll-behavior: smooth;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 /* HEADER (preserva sua ideia) */
 .header {
     position: fixed;
@@ -43,10 +47,20 @@ html {
     z-index: 1000;
 }
 
+@media (max-width: 768px) {
+    .header {
+        padding: 0 5%;
+    }
+}
+
 /* NAV */
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
 .nav a {
     position: relative;
-    margin-left: 20px;
     text-decoration: none;
     color:var(--color02);
 }
@@ -153,7 +167,8 @@ html {
 
 /* IMAGE */
 .photo img {
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     border-radius: 50%;
     border: 5px solid var(--color03);
     box-shadow: 0 0 15px var(--color03);
